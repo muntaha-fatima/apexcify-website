@@ -15,7 +15,7 @@
     <nav class="fixed top-0 w-full z-50 bg-black/30 backdrop-blur-md">
         <div class="container mx-auto px-4 sm:px-6 lg:px-12 flex items-center justify-between h-16 sm:h-20">
             <!-- Logo -->
-            <a href="#" class="text-white text-2xl sm:text-3xl font-extrabold tracking-widest uppercase select-none">
+            <a href="#" class="text-white text-2xl sm:text-3xl font-extrabold backdrop-blur-md uppercase select-none">
                 <span class="text-teal-400">Apexcify </span>Technologys
             </a>
             <!-- Desktop Menu -->
@@ -40,15 +40,31 @@
             <li><a href="#contact" class="hover:text-teal-400 transition duration-300">Contact</a></li>
         </ul>
     </nav>
+<section
+  id="home"
+  class="min-h-screen flex items-center bg-cover bg-center bg-no-repeat text-white"
+  style="background-image: url('https://www.fhgr.ch/fileadmin/weiterbildung/management/emba-disruptive_business_development/EMBA-Disruptive_Business_Development-Header.jpg');"
+>
+  <div class="container mx-auto px-6 py-32 max-w-4xl">
+    <div class="bg-black bg-opacity-50 p-10 rounded-xl">
+      <h1 class="text-5xl font-extrabold text-teal-400 mb-6 leading-tight">
+        Apexcify Technologys
+      </h1>
+      <p class="text-xl font-light mb-8 leading-relaxed">
+        Transforming Your Vision into Digital Excellence
+      </p>
+      <a
+        href="#portfolio"
+        class="inline-block bg-teal-400 hover:bg-teal-500 transition px-8 py-4 rounded-lg font-semibold text-black"
+      >
+        Discover Our Projects
+      </a>
+    </div>
+  </div>
+</section>
 
-    <!-- Hero Section -->
-    <section id="home" class="min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat text-white" style="background-image: url('https://www.fhgr.ch/fileadmin/weiterbildung/management/emba-disruptive_business_development/EMBA-Disruptive_Business_Development-Header.jpg');">
-        <div class="container mx-auto px-4 sm:px-6 py-12 sm:py-16 text-center rounded-2xl max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-3xl">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold mb-6 tracking-tight drop-shadow-md animate-slide-up">Apexcify Technologys</h1>
-            <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 sm:mb-10 font-light leading-relaxed drop-shadow-sm animate-slide-up delay-1">Transforming Your Vision into Digital Excellence</p>
-            <a href="#portfolio" class="btn-primary px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-bold">Discover Our Projects</a>
-        </div>
-    </section>
+
+
 
     <!-- About Section -->
     <section id="about" class="py-16 sm:py-24 lg:py-32 bg-white text-neutral-900">
@@ -186,12 +202,7 @@
     <section id="portfolio" class="py-16 sm:py-24 lg:py-32 section">
         <div class="container mx-auto px-4 sm:px-6 relative">
             <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-8 sm:mb-12 animate-slide-up">Our Portfolio</h2>
-            <div class="flex justify-center flex-wrap gap-2 sm:gap-4 mb-6 sm:mb-8">
-                <button class="filter-btn active px-3 sm:px-4 py-1 sm:py-2 text-sm sm:text-base" data-filter="all">All</button>
-                <button class="filter-btn px-3 sm:px-4 py-1 sm:py-2 text-sm sm:text-base" data-filter="web">Web</button>
-                <button class="filter-btn px-3 sm:px-4 py-1 sm:py-2 text-sm sm:text-base" data-filter="app">App</button>
-                <button class="filter-btn px-3 sm:px-4 py-1 sm:py-2 text-sm sm:text-base" data-filter="branding">Branding</button>
-            </div>
+            
             <div class="relative overflow-hidden">
                 <div id="portfolio-carousel" class="flex transition-transform duration-500 ease-in-out">
                     <!-- Portfolio items -->
@@ -287,28 +298,28 @@
                 <div>
                     <span class="inline-block px-3 sm:px-4 py-1 bg-indigo-800 text-white rounded-full text-xs sm:text-sm font-semibold mb-3 sm:mb-4">CONTACT US</span>
                     <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">
-                        Contact <span class="text-indigo-900">& Join</span> Together
+                        Contact <span class="text-black">& Join</span> Together
                     </h2>
                     <p class="text-black mb-4 sm:mb-6 text-sm sm:text-base">
                         Get in touch today and let’s begin your digital journey together. Your success is our priority!
                     </p>
                     <div class="space-y-4 sm:space-y-6">
                         <div class="flex items-center gap-3 sm:gap-4">
-                            <div class="bg-white/20 p-3 sm:p-4 rounded-full text-white text-xl sm:text-2xl">📍</div>
+                            <div class="text-black p-3 sm:p-4 rounded-full text-black text-xl sm:text-2xl">📍</div>
                             <div>
                                 <p class="text-black text-sm sm:text-base">Office Address :</p>
                                 <p class="text-black font-semibold text-sm sm:text-base">Lahore, Pakistan</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-3 sm:gap-4">
-                            <div class="bg-white/20 p-3 sm:p-4 rounded-full text-white text-xl sm:text-2xl">📞</div>
+                            <div class="text-black p-3 sm:p-4 rounded-full text-black text-xl sm:text-2xl">📞</div>
                             <div>
                                 <p class="text-black text-sm sm:text-base">Phone Number :</p>
                                 <p class="text-black font-semibold text-sm sm:text-base">+92 342 014 7244</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-3 sm:gap-4">
-                            <div class="bg-white/20 p-3 sm:p-4 rounded-full text-white text-xl sm:text-2xl">✉️</div>
+                            <div class="text-black p-3 sm:p-4 rounded-full text-black text-xl sm:text-2xl">✉️</div>
                             <div>
                                 <p class="text-black text-sm sm:text-base">Mail Address :</p>
                                 <p class="text-black font-semibold text-sm sm:text-base">help@company.com</p>
@@ -337,23 +348,23 @@
             <div class="mt-12 sm:mt-16 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 text-center">
                 <div class="bg-white/20 backdrop-blur-md rounded-lg p-4 sm:p-6 shadow-lg">
                     <div class="text-2xl sm:text-3xl text-white">📄</div>
-                    <h4 class="text-white font-bold text-base sm:text-lg mt-2">1,000+</h4>
-                    <p class="text-indigo-200 text-xs sm:text-sm">Completed Projects</p>
+                    <h4 class="text-black font-bold text-base sm:text-lg mt-2">1,000+</h4>
+                    <p class="text-black text-xs sm:text-sm">Completed Projects</p>
                 </div>
-                <div class="bg-white/20 backdrop-blur-md rounded-lg p-4 sm:p-6 shadow-lg">
-                    <div class="text-2xl sm:text-3xl text-white">👥</div>
-                    <h4 class="text-white font-bold text-base sm:text-lg mt-2">1,000+</h4>
-                    <p class="text-indigo-200 text-xs sm:text-sm">Happy Customers</p>
+                <div class="text-black backdrop-blur-md rounded-lg p-4 sm:p-6 shadow-lg">
+                    <div class="text-2xl sm:text-3xl text-black">👥</div>
+                    <h4 class="text-black font-bold text-black sm:text-lg mt-2">1,000+</h4>
+                    <p class="text-black text-xs sm:text-sm">Happy Customers</p>
                 </div>
-                <div class="bg-white/20 backdrop-blur-md rounded-lg p-4 sm:p-6 shadow-lg">
-                    <div class="text-2xl sm:text-3xl text-white">🏆</div>
-                    <h4 class="text-white font-bold text-base sm:text-lg mt-2">13+</h4>
-                    <p class="text-indigo-200 text-xs sm:text-sm">Awards Won</p>
+                <div class="text-black backdrop-blur-md rounded-lg p-4 sm:p-6 shadow-lg">
+                    <div class="text-2xl sm:text-3xl text-black">🏆</div>
+                    <h4 class="text-black font-bold text-black sm:text-lg mt-2">13+</h4>
+                    <p class="text-black text-xs sm:text-sm">Awards Won</p>
                 </div>
-                <div class="bg-white/20 backdrop-blur-md rounded-lg p-4 sm:p-6 shadow-lg">
+                <div class="text-black backdrop-blur-md rounded-lg p-4 sm:p-6 shadow-lg">
                     <div class="text-2xl sm:text-3xl text-white">⭐</div>
-                    <h4 class="text-white font-bold text-base sm:text-lg mt-2">99%</h4>
-                    <p class="text-indigo-200 text-xs sm:text-sm">Satisfaction Rate</p>
+                    <h4 class="text-black font-bold text-base sm:text-lg mt-2">99%</h4>
+                    <p class="text-black text-xs sm:text-sm">Satisfaction Rate</p>
                 </div>
             </div>
         </div>
@@ -362,7 +373,7 @@
     <!-- Footer -->
     <footer class="bg-gradient-to-r from-cyan-400 to-blue-500 text-white py-8 sm:py-10">
         <div class="container mx-auto px-4 sm:px-6 text-center">
-            <p class="mb-4 text-gray-300 text-sm sm:text-base">&copy; 2025 Apexify Technologies. All rights reserved.</p>
+            <p class="mb-4 text-black text-sm sm:text-black">&copy; 2025 Apexify Technologies. All rights reserved.</p>
             <div class="flex justify-center space-x-6 sm:space-x-8">
                 <a href="#" class="social-icon"><svg class="w-5 sm:w-7 h-5 sm:h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg></a>
                 <a href="#" class="social-icon"><svg class="w-5 sm:w-7 h-5 sm:h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"></path></svg></a>
