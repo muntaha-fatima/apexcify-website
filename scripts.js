@@ -11,16 +11,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { threshold: 0.2 });
     sections.forEach(section => observer.observe(section));
 
-    // Form submission
-    const form = document.getElementById('contact-form');
-    if(form) {
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Message sent successfully!');
-            form.reset();
-        });
-    }
+  const form = document.getElementById('contact-form');
 
+  form.addEventListener('submit', function(e) {
+    e.preventDefault(); // Page reload roke
+
+    // Aap yahan AJAX se backend ya API call kar sakte hain agar chahiye
+
+    alert('Thank you for contacting us! We will get back to you soon.');
+    form.reset();
+  });
     // Portfolio carousel setup
     const carousel = document.getElementById('portfolio-carousel');
     const items = document.querySelectorAll('.portfolio-item');
